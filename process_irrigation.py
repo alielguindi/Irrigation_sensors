@@ -5,6 +5,14 @@ Created on Fri Oct 30 11:37:12 2020
 
 @author: alielguindi
 """
+'''
+Ce code python a pour but de
+
+
++ Lire et analyser des données d’humidité du sol mesurées dans un verger dans le canton de Genève.
++ Extraire ces donnees des mois de juin, juillet et août 2020 
++ Enregistrer un graphique de ceux-ci dans 3 fichiers `irrigation_graph_2020-06.png` , `irrigation_graph_2020-07.png` et `irrigation_graph_2020-08.png`
+'''
 import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
